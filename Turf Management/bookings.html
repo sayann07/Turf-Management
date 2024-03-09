@@ -1,0 +1,69 @@
+<html>
+<head>
+  <link rel="stylesheet" type="text/css" href="index3.css">
+<style>
+  .heading{
+      background-color:#16866F;
+      text-align:center;
+      color:white;
+	  height:10%;
+	  }
+	  </style>
+</head>
+
+<center>
+ 
+     <div class="heading">
+         <h1>TURF BOOKING</h1>
+	 </div>
+</center>
+<body>
+<nav>
+  <ul>
+      <li><a href="home.html">Home</a></li>
+      <li><a href="bookings.html">Booking</a></li>
+      <li><a href="contact.html">Contact</a></li>
+      <li><a href="gallery.html">Gallery</a></li>
+  </ul>
+</nav>
+<section id="fields">
+            <h2>Available Fields</h2>
+            <ol>
+                <li>Football Field</li>
+                <li>Cricket Field</li>
+                
+            </ol>
+        </section>
+        <section id="booking">
+            <h2>Book a Field</h2>
+            <form>
+                <label for="field">Field:</label>
+                <select id="field" name="field">
+                    <option value="football">Football Field</option>
+                    <option value="cricket">Cricket Field</option>
+                </select><br><br>
+                    <h3>For Football</h3>
+                    <input type="radio" id="grass" name="field" value="GRASS">
+                    <label for="grass">GRASS</label><br>
+                    <input type="radio" id="soapy" name="field" value="SOAPY">
+                    <label for="soapy">SOAPY</label><br>
+                    <h3>For Cricket</h3>
+                    <input type="radio" id="grass" name="field" value="GRASS">
+                    <label for="grass">GRASS</label><br>
+                    <input type="radio" id="pitch" name="field" value="PITCH">
+                    <label for="pitch">PITCH</label><br>
+                    
+                </select><br>
+                <label for="date">Date:</label>
+                <input type="date" id="date" name="date"><br>
+                <label for="time">Time:</label>
+                <input type="time" id="time" name="time"><br>
+                <input type="submit" value="Book Now">
+            </form>
+        </section>
+        <footer>
+          <p>Copyright © 2024 Turf Management</p>
+      </footer>
+    
+</body>
+</html>
